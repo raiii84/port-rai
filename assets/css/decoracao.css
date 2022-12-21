@@ -1,0 +1,33 @@
+.avatar {
+    position: absolute;
+    z-index: 1;
+    top: 106vh;
+    left: 48vw;
+    position: absolute;
+}
+
+.box1 {
+    position: absolute;
+    border: solid 4px;
+    border-color: #BD00FF;
+    background-color: #393939;
+    opacity: 1;
+    height: 181vh;
+    width: 46vw;
+    top: 1%;
+    left: 37px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box2 {
+    position: absolute;
+    border: solid 4px;
+    border-color: #000AFF;
+    opacity: 0.4;
+    height: 120vh;
+    width: 65vw;
+    top: 140vh;
+    left: 30vw;
+    border-radius: 10px 10px 10px 10px;
+    z-index: -1;
+}

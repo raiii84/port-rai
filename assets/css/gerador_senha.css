@@ -1,0 +1,109 @@
+.gerador_senha{
+    width: 35vw;
+    height: 30vh;
+    background-color: #cbcbcb;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 146vh;
+    left: 54vw;
+}
+
+.txt_texto {
+    font-family: Impact;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin: 10px auto;    
+}
+
+.txt_texto2 {
+    font-family: Arial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    position: absolute;
+    top: 95px;
+    left: 18px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 270px;
+    display: flex;
+    position: absolute;
+    top: 125px;
+    left: 15px;
+    background-color: #cbcbcb;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #393939;
+    border-radius: 50px;
+    border: 2px solid #393939;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    -webkit-appearance: none;
+}
+
+.txt_comprimento {
+    width: 35px;
+    border-color: #CCCCCC;
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #393939;
+    text-align: center;
+    position: absolute;
+    top: 126px;
+    left: 290px;
+}
+
+.gerar {
+    position: absolute;
+    width: 330px;
+    top: 160px;
+    left: 14px;
+}
+
+.txt_texto3{
+    font-family: Arial;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    position: absolute;
+    top: 175px;
+    left: 18px;
+}
+    
+.txt_senha{
+    position: absolute;
+    top: 198px;
+    left: 150px;
+}
+
+  

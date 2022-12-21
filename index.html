@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rai Gonçalves</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/decoracao.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/gerador_senha.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+</head>
+<body>
+
+    <nav class="menu">
+        <div>
+            <ul>
+                <li class="rede_social"><a href="#"><i class="bi bi-github"></i></a></li>
+                <li class="rede_social"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                <li class="rede_social"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li class="rede_social"><a href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="apresentacao">
+        <img src="assets/img/logo ap.svg" class="apresentacao_logo">
+        <img src="assets/img/Group 7.svg" class="apresentacao_txt">
+    </div>
+
+    <div class="gerador_senha">
+        <h1 class="txt_texto">Gerador de Senha</h1> <!-- título -->
+        <form>
+            <label for="length" class="txt_texto2"> Comprimento da senha:</label> <!-- txt comprimento -->
+            <input type="range" class="mudar" id="length" value="8" min="8" max="20" oninput="display.value=value" onchange="display.value=value"> <!-- barra de comprimento -->
+            <input type="text" class="txt_comprimento" id="display" value="8" readonly> <!-- txt tamanho -->
+            <button type="button" class="gerar" id="generate">Gerar</button> <!-- btn gerar-->
+        </form>
+        
+        <p class="txt_texto3">Sua senha é:</p> <!-- txt senha -->
+        <div class="txt_senha" id="password"></div> <!-- txt senha -->
+        <script src="assets/js/gerador_senha.js"></script> <!-- senha js -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="decoracao">
+        <img src="assets/img/avatar.svg" class="avatar">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    
+</body>
+</html>
